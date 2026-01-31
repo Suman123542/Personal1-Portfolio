@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/images/logo1 (2).png" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <img src="logo1 (2).png" class="logo" alt="Logo">
+                <ul class="nav-links" id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Skill">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  <i class="fa-solid fa-xmark close-btn" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu-btn" onclick="openMenu()"></i>
+            </nav>
+
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span>Suman</span><br>Swain From Odisha</h1>
+                    <p>Software Developer</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Suman_Resume.pdf" download class="cv-button">Download CV</a>
+                </div>
+                <div class="hero-image">
+                    <img src="Suman photo.jpg" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="Skill">
+        <div class="skills-container">
+            <h1 class="skills-title">My Skills</h1>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-brands fa-html5 html"></i>
+                    <span>HTML</span>
+                    <span class="percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress html-bar"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-brands fa-css3-alt css"></i>
+                    <span>CSS</span>
+                    <span class="percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress css-bar"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-brands fa-js js"></i>
+                    <span>JavaScript</span>
+                    <span class="percent">60%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress js-bar"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-brands fa-react react"></i>
+                    <span>React</span>
+                    <span class="percent">60%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress react-bar"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-brands fa-node-js node"></i>
+                    <span>Node.js</span>
+                    <span class="percent">20%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress node-bar"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-solid fa-database mongo"></i>
+                    <span>MongoDB</span>
+                    <span class="percent">60%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress mongo-bar"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-brands fa-java java"></i>
+                    <span>Java</span>
+                    <span class="percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress java-bar"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="fa-solid fa-database"></i>
+                    <span>MySql</span>
+                    <span class="percent">80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress mysql-bar"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="project-container">
+            <h1 class="project-title">Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Moodlisting</h2>
+                    <p>A console-based application for tracking and logging daily emotional states to analyze mood
+                        trends. It allows users to input, store, and review moods via a terminal interface for better
+                        self-awareness. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Ocean Climate-Dashboard</h2>
+                    <p> Designed an interative PowerBI
+                        dashboard analyzing climate Dataset and how our marine species affect with change of climate
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Generative AI Services</h2>
+                    <p>Developed a static frontend interface for a generative AI services website using React.js
+                        .Created reusable components and implemented client-side navigation .Focused on layout, UI
+                        structure, and basic user interaction </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-items">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>contact@example.com</p>
+                    </div>
+                    <div class="contact-items">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>1234567891</p>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Suman_Resume.pdf" download class="cv">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" id="" placeholder="Your Email" required>
+                        <textarea name="message" id="" placeholder="your Meassage"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="copyright">
+        <p>© 2026 Suman Swain. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
